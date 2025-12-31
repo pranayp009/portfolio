@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Prajapati Pranay - Frontend Web Developer specializing in HTML, CSS, React and API Integration. Based in Gandhinagar.">
+    <title>Pranay Prajapati | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">PRANAY<span class="logo-dot">.</span></div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link nav-link-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-greeting">HELLO, I'M</p>
+                <h1 class="hero-title">PRANAY<br>PRAJAPATI</h1>
+                <p class="hero-subtitle">FRONTEND WEB DEVELOPER</p>
+                <p class="hero-description">Crafting responsive and interactive web experiences with modern technologies. Specialized in HTML, CSS, React, and API Integration.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">VIEW MY WORK</a>
+                    <a href="#contact" class="btn-secondary">GET IN TOUCH</a>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <div class="scroll-indicator">
+                    <span>SCROLL DOWN</span>
+                    <div class="scroll-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">WHO I AM</span>
+                <h2 class="section-title">ABOUT ME</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">I'm a passionate frontend developer currently pursuing my Diploma in Computer Engineering. Based in Gandhinagar, I focus on creating clean, efficient, and user-friendly web applications.</p>
+                    <div class="about-details">
+                        <div class="about-item">
+                            <div class="about-icon">🎓</div>
+                            <div>
+                                <h3>Education</h3>
+                                <p>Diploma in Computer Engineering</p>
+                                <p class="text-muted">Current Student</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <div class="about-icon">💼</div>
+                            <div>
+                                <h3>Experience</h3>
+                                <p>2 Professional Internships</p>
+                                <p class="text-muted">Hands-on Industry Experience</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <div class="about-icon">📍</div>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Gandhinagar, Gujarat</p>
+                                <p class="text-muted">Available for Projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">MY EXPERTISE</span>
+                <h2 class="section-title">SKILLS & TECHNOLOGIES</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3 class="skill-title">HTML5</h3>
+                    <p class="skill-description">Semantic markup and modern HTML5 features for building structured web pages.</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="90"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3 class="skill-title">CSS3</h3>
+                    <p class="skill-description">Advanced styling with Flexbox, Grid, animations, and responsive design principles.</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️</div>
+                    <h3 class="skill-title">React</h3>
+                    <p class="skill-description">Building dynamic user interfaces with React components, hooks, and state management.</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔌</div>
+                    <h3 class="skill-title">API Integration</h3>
+                    <p class="skill-description">Fetching and managing data from REST APIs to create interactive applications.</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="85"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">MY WORK</span>
+                <h2 class="section-title">FEATURED PROJECTS</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: Weather Forecaster -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/pranayp009/weather-app" class="project-link" aria-label="View Live Demo">SOURCE CODE</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <span class="placeholder-icon">🌤️</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">API</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <h3 class="project-title">Real-Time Weather Forecaster</h3>
+                        <p class="project-description">A dynamic weather application that provides real-time weather information using weather API integration. Features location-based forecasts and detailed weather metrics.</p>
+                        <ul class="project-features">
+                            <li>Real-time weather data</li>
+                            <li>Location-based search</li>
+                            <li>5-day forecast display</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 2: Shop Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Live Demo">SOURCE CODE</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <span class="placeholder-icon">🛍️</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">E-commerce</span>
+                            <span class="tag">React</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <h3 class="project-title">E-Commerce Shop</h3>
+                        <p class="project-description">A modern online shop interface with product listings, shopping cart functionality, and responsive design for seamless shopping experience.</p>
+                        <ul class="project-features">
+                            <li>Product catalog display</li>
+                            <li>Shopping cart management</li>
+                            <li>Responsive design</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 3: Recipe Finder -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/pranayp009/Recipe-project" class="project-link" aria-label="View Live Demo">SOURCE CODE</a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <span class="placeholder-icon">🍳</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">API</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML</span>
+                        </div>
+                        <h3 class="project-title">Recipe Finder Application</h3>
+                        <p class="project-description">An interactive recipe search application that helps users discover new recipes using external recipe API. Features detailed cooking instructions and ingredient lists.</p>
+                        <ul class="project-features">
+                            <li>Recipe search by ingredients</li>
+                            <li>Detailed cooking instructions</li>
+                            <li>Nutritional information</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">GET IN TOUCH</span>
+                <h2 class="section-title">LET'S WORK TOGETHER</h2>
+                <p class="section-description">Have a project in mind? I'm available for freelance work and collaborations. Drop me a message and let's create something amazing together!</p>
+            </div>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-submit">SEND MESSAGE</button>
+                    <p class="form-note">Note: EmailJS integration will be added once you provide the configuration keys.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">PRANAY<span class="logo-dot">.</span></div>
+                    <p class="footer-tagline">Frontend Developer | Gandhinagar</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+                            <li><a href="#" target="_blank" rel="noopener">GitHub</a></li>
+                            <li><a href="#" target="_blank" rel="noopener">Twitter</a></li>
+                            <li><a href="#contact">Email</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pranay Prajapati. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+    
+
+</body>
+</html>
